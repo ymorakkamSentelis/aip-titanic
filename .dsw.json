@@ -1,17 +1,26 @@
 {
   "": {
-    "/": 1613959308.899152
+    "/": 1613970450.9813066,
+    "accuracy.kpi": 1613969667.4206598,
+    "aip_utils.py": 1613970513.5651002,
+    "f1.kpi": 1613969667.3555362,
+    "model-binary": 1613969641.4951878,
+    "precision.kpi": 1613969667.3162034,
+    "predict.ipynb": 1613969641.504523,
+    "preprocess_data.py": 1613970513.4390416,
+    "recall.kpi": 1613969667.235358,
+    "train.ipynb": 1613969641.5188603,
+    "requirements.txt": 1613970513.352338
   },
   "/": {
     "notebooks": {
-      "kernel": "ymrenv"
+      "kernel": "ymrenv",
+      "kernel_source_modified": 1613969891.7841933
     },
-    "default_systems": {
-      "model_manager": "modelmanager",
-      "gitlab": "gitlab"
-    },
+    "default_systems": {},
     "sync": {
-      "system": "modelmanager"
+      "system": "modelmanager",
+      "subcomponent_type": "models"
     },
     "run": {
       "files": {},
@@ -20,5 +29,95 @@
       "scoring_arguments": {}
     },
     "project_id": "P000001"
+  },
+  "accuracy.kpi": {
+    "sync": {
+      "subcomponent_type": "kpis",
+      "system_type": "model_manager",
+      "timestamp_local": 1613969130.300926,
+      "subcomponent": "600e638eb5c62c00555154cf",
+      "version": null,
+      "properties": {}
+    }
+  },
+  "aip_utils.py": {
+    "sync": {
+      "subcomponent_type": "resources",
+      "part": "module",
+      "system_type": "model_manager",
+      "timestamp_local": 1613965366.0203285,
+      "synched_project": "P000001",
+      "subcomponent": "60333c516ed67c26b643eab6",
+      "version": null,
+      "properties": {}
+    }
+  },
+  "f1.kpi": {
+    "sync": {
+      "subcomponent_type": "kpis",
+      "system_type": "model_manager",
+      "timestamp_local": 1613969142.9111764,
+      "subcomponent": "603339036ed67c26b643ea57",
+      "version": null,
+      "properties": {}
+    }
+  },
+  "model-binary": {
+    "sync": {
+      "part": "model-binary"
+    }
+  },
+  "precision.kpi": {
+    "sync": {
+      "subcomponent_type": "kpis",
+      "system_type": "model_manager",
+      "timestamp_local": 1613969197.4552603,
+      "subcomponent": "603339036ed67c26b643ea56",
+      "version": null,
+      "properties": {}
+    }
+  },
+  "predict.ipynb": {
+    "sync": {
+      "part": "prediction"
+    }
+  },
+  "preprocess_data.py": {
+    "sync": {
+      "subcomponent_type": "resources",
+      "part": "module",
+      "system_type": "model_manager",
+      "timestamp_local": 1613967554.8638706,
+      "synched_project": "P000001",
+      "subcomponent": "60333c516ed67c26b643eab3",
+      "version": null,
+      "properties": {}
+    }
+  },
+  "recall.kpi": {
+    "sync": {
+      "subcomponent_type": "kpis",
+      "system_type": "model_manager",
+      "timestamp_local": 1613969162.511566,
+      "subcomponent": "603339036ed67c26b643ea52",
+      "version": null,
+      "properties": {}
+    }
+  },
+  "train.ipynb": {
+    "sync": {
+      "part": "training"
+    }
+  },
+  "requirements.txt": {
+    "sync": {
+      "system_type": "model_manager",
+      "subcomponent_type": "environments",
+      "part": "environment",
+      "timestamp_local": 1613969906.1715353,
+      "subcomponent": "60333a046ed67c26b643ea5b",
+      "version": null,
+      "properties": {}
+    }
   }
 }
