@@ -1,0 +1,24 @@
+{
+  "": {
+    "/": 1613959308.899152
+  },
+  "/": {
+    "notebooks": {
+      "kernel": "ymrenv"
+    },
+    "default_systems": {
+      "model_manager": "modelmanager",
+      "gitlab": "gitlab"
+    },
+    "sync": {
+      "system": "modelmanager"
+    },
+    "run": {
+      "files": {},
+      "arguments": {},
+      "training_arguments": {},
+      "scoring_arguments": {}
+    },
+    "project_id": "P000001"
+  }
+}
