@@ -1,16 +1,19 @@
 {
   "": {
-    "/": 1613970450.9813066,
-    "accuracy.kpi": 1613969667.4206598,
-    "aip_utils.py": 1613970513.5651002,
-    "f1.kpi": 1613969667.3555362,
-    "model-binary": 1613969641.4951878,
-    "precision.kpi": 1613969667.3162034,
-    "predict.ipynb": 1613969641.504523,
-    "preprocess_data.py": 1613970513.4390416,
-    "recall.kpi": 1613969667.235358,
-    "train.ipynb": 1613969641.5188603,
-    "requirements.txt": 1613970513.352338
+    "/": 1613973253.6464927,
+    "accuracy.kpi": 1613972976.470186,
+    "aip_utils.py": 1613973253.6901798,
+    "f1.kpi": 1613972335.8563213,
+    "model-binary": 1613973253.7038555,
+    "precision.kpi": 1613972976.462607,
+    "predict.ipynb": 1613973253.6969416,
+    "preprocess_data.py": 1613973253.683368,
+    "recall.kpi": 1613972976.455575,
+    "train.ipynb": 1613973253.6544254,
+    "requirements.txt": 1613973253.6758595,
+    "data/": 1613970921.15886,
+    "test.csv": 1613973253.6685429,
+    "train.csv": 1613973253.6617773
   },
   "/": {
     "notebooks": {
@@ -19,8 +22,14 @@
     },
     "default_systems": {},
     "sync": {
+      "system_type": "model_manager",
+      "subcomponent_type": "models",
       "system": "modelmanager",
-      "subcomponent_type": "models"
+      "timestamp_local": 1613973135.060273,
+      "synched_project": "P000001",
+      "subcomponent": "6033412a6ed67c26b643eb2e",
+      "version": "4",
+      "properties": {}
     },
     "run": {
       "files": {},
@@ -47,7 +56,7 @@
       "system_type": "model_manager",
       "timestamp_local": 1613965366.0203285,
       "synched_project": "P000001",
-      "subcomponent": "60333c516ed67c26b643eab6",
+      "subcomponent": "603340226ed67c26b643eb17",
       "version": null,
       "properties": {}
     }
@@ -64,7 +73,8 @@
   },
   "model-binary": {
     "sync": {
-      "part": "model-binary"
+      "part": "model-binary",
+      "timestamp_local": 1613967910.2818391
     }
   },
   "precision.kpi": {
@@ -79,7 +89,8 @@
   },
   "predict.ipynb": {
     "sync": {
-      "part": "prediction"
+      "part": "prediction",
+      "timestamp_local": 1613972629.7011614
     }
   },
   "preprocess_data.py": {
@@ -89,7 +100,7 @@
       "system_type": "model_manager",
       "timestamp_local": 1613967554.8638706,
       "synched_project": "P000001",
-      "subcomponent": "60333c516ed67c26b643eab3",
+      "subcomponent": "603340216ed67c26b643eb14",
       "version": null,
       "properties": {}
     }
@@ -106,7 +117,8 @@
   },
   "train.ipynb": {
     "sync": {
-      "part": "training"
+      "part": "training",
+      "timestamp_local": 1613969478.8218482
     }
   },
   "requirements.txt": {
@@ -116,6 +128,39 @@
       "part": "environment",
       "timestamp_local": 1613969906.1715353,
       "subcomponent": "60333a046ed67c26b643ea5b",
+      "version": null,
+      "properties": {}
+    }
+  },
+  "data/": {
+    "notebooks": {
+      "kernel": "ymrenv"
+    },
+    "sync": {
+      "subcomponent_type": "models"
+    },
+    "project_id": "P000001"
+  },
+  "test.csv": {
+    "sync": {
+      "system_type": "model_manager",
+      "subcomponent_type": "resources",
+      "part": "input",
+      "timestamp_local": 1613959588.6128466,
+      "synched_project": "P000001",
+      "subcomponent": "603340216ed67c26b643eb11",
+      "version": null,
+      "properties": {}
+    }
+  },
+  "train.csv": {
+    "sync": {
+      "system_type": "model_manager",
+      "subcomponent_type": "resources",
+      "part": "input",
+      "timestamp_local": 1613959580.169722,
+      "synched_project": "P000001",
+      "subcomponent": "603340216ed67c26b643eb0e",
       "version": null,
       "properties": {}
     }
